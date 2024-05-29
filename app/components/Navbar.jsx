@@ -14,6 +14,7 @@ const Navbar = () => {
     <nav className="bg-black p-4">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         <div className="flex items-center justify-between w-full lg:w-auto">
+          <h5 className="text-black text-lg font-semibold">.</h5>
           <button
             className="text-white lg:hidden block"
             onClick={toggleMenu}

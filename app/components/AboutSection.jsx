@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section id="courses" className="py-10 sm:py-20 md:py-32 lg:py-40 ">
+    <section id="staff" className="py-10 sm:py-20 md:py-32 lg:py-40 ">
       <div className="container mx-auto">
         <h1 className="text-4xl font-extrabold text-center mb-8 text-white">
         Teachers
