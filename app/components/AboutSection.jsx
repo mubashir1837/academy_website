@@ -25,8 +25,8 @@ const AboutSection = () => {
             <h2 className="text-lg font-semibold mb-2 text-white">Muhammad Hadi</h2>
             <p className="text-sm text-white">Biology</p>
           </div>
-          <div className="flex flex-col items-center bg-[#4f8892] rounded-lg p-6">
-          <Image src="/images/muneer.png" alt="Profile Image" width={100} height={100} className="rounded-full" />
+          <div className="flex flex-col items-center bg-[#4f8892] rounded-lg  p-6">
+          <Image src="/images/muneer.png" alt="Profile Image" width={100} height={100} className="rounded-full bg-white" />
             <h2 className="text-lg font-semibold mb-2 text-white">Muneer Ahmed</h2>
             <p className="text-sm text-white">Mathematics</p>
           </div>
