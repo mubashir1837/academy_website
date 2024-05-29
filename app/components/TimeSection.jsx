@@ -4,33 +4,6 @@ const TimeSection = () => {
   return (
     <div id='time' className="admission-section">
       <h2 className=' text-center font-bold '>Time Table</h2>
-      <style>
-        {`
-          .table-responsive {
-            overflow-x: auto;
-          }
-          
-          .timetable {
-            width: 100%;
-            border-collapse: collapse;
-          }
-          
-          .timetable th,
-          .timetable td {
-            border: 4px solid #fff;
-            padding: 8px;
-            text-align: center;
-          }
-          
-          /* Media query for responsiveness */
-          @media (max-width: 768px) {
-            .timetable th,
-            .timetable td {
-              padding: 5px;
-            }
-          }
-        `}
-      </style>
       <div className=" table-container sm:min-w-md mt-20">
         <table className="timetable">
           <thead >
