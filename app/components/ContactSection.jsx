@@ -48,24 +48,24 @@ const ContactSection = () => {
           Get in Touch
         </h1>
         <div className="flex justify-center space-x-8 mb-8">
-          <a href="#" className="text-[#fff] hover:text-[#1ff]">
+          <a href="#" className="text-[#848586] hover:text-[#1ff]">
             <FaEnvelope size={36} />
           </a>
-          <a href="#" className="text-[#fff] hover:text-[#1ff]">
+          <a href="#" className="text-[#4736df] hover:text-[#1ff]">
             <FaFacebook size={36} />
           </a>
-          <a href="#" className="text-[#fff] hover:text-[#1ff]">
+          <a href="#" className="text-[#31aacf] hover:text-[#1ff]">
             <FaTwitter size={36} />
           </a>
-          <a href="#" className="text-[#fff] hover:text-[#1ff]">
+          <a href="#" className="text-[#cf2c2c] hover:text-[#1ff]">
             <FaInstagram size={36} />
           </a>
         </div>
       </div>
-      <section className="text-gray-600 body-font bg-yellow-100 flex items-center justify-center ">
+      <section className="text-gray-600 body-font bg-yellow-100 flex items-center justify-center ml-[20%] ">
         <div className="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section " id="contact-form">
           <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
-            <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4 ">Contact Form</h1>
+            <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4 text-center ">Contact Us</h1>
             <form onSubmit={handleSubmit}>
               <div className="p-2 w-full">
                 <div className="relative">
