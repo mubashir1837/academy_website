@@ -31,10 +31,10 @@ const TimeSection = () => {
           }
         `}
       </style>
-      <div className="overflow-x mt-20">
+      <div className=" table-container sm:min-w-md mt-20">
         <table className="timetable">
-          <thead>
-            <tr>
+          <thead >
+            <tr >
               <th>Time</th>
               <th>Monday</th>
               <th>Tuesday</th>
