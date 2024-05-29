@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
+import {  FaTwitter, FaInstagram, FaEnvelope, FaFacebookSquare } from "react-icons/fa";
 import emailjs from 'emailjs-com';
 
 
@@ -45,27 +45,27 @@ const ContactSection = () => {
     <section className="py-10 sm:py-20 md:py-32 lg:py-40 mt-80">
       <div className="container mx-auto">
         <h1 className="text-4xl font-semibold text-center mb-8 text-gray-800">
-          Get in Touch
+          Contact Us
         </h1>
         <div className="flex justify-center space-x-8 mb-8">
-          <a href="#" className="text-[#848586] hover:text-[#1ff]">
+          <a href="#" className="text-[#848586] hover:text-[#b7bdbd]">
             <FaEnvelope size={36} />
           </a>
-          <a href="#" className="text-[#4736df] hover:text-[#1ff]">
-            <FaFacebook size={36} />
+          <a href="#" className="text-[#4736df] hover:text-[#6577c7]">
+            <FaFacebookSquare size={36} />
           </a>
-          <a href="#" className="text-[#31aacf] hover:text-[#1ff]">
+          <a href="#" className="text-[#31aacf] hover:text-[#80cfcf]">
             <FaTwitter size={36} />
           </a>
-          <a href="#" className="text-[#cf2c2c] hover:text-[#1ff]">
+          <a href="#" className="text-[#cf2c2c] hover:text-[#e46f79]">
             <FaInstagram size={36} />
           </a>
         </div>
       </div>
-      <section className="text-gray-600 body-font bg-yellow-100 flex items-center justify-center ">
+      <section className="text-gray-600 body-font bg-[#e9e4e4] flex items-center justify-center lg:mx-[200px] rounded-2xl ">
         <div className="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section " id="contact-form">
           <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
-            <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4 text-center ">Contact Us</h1>
+            {/* <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4 text-center ">Contact Us</h1> */}
             <form onSubmit={handleSubmit}>
               <div className="p-2 w-full">
                 <div className="relative">
@@ -74,6 +74,7 @@ const ContactSection = () => {
                     type="text"
                     id="name"
                     name="name"
+                    placeholder="Enter your name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -88,6 +89,7 @@ const ContactSection = () => {
                     type="email"
                     id="email"
                     name="email"
+                    placeholder="Enter your email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -101,6 +103,7 @@ const ContactSection = () => {
                   <textarea
                     id="message"
                     name="message"
+                    placeholder="Enter your message"
                     value={formData.message}
                     onChange={handleChange}
                     required
