@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-const AboutSection = () => {
+const Staff = () => {
   return (
     <section id="staff" className="py-10 sm:py-20 md:py-32 lg:py-40 ">
       <div className="container mx-auto">
-        <h1 className="text-4xl font-extrabold text-center mb-8 text-white">
+        <h1 className="text-4xl font-extrabold text-center mb-8 text-black">
         Teachers
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -37,4 +37,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default Staff;

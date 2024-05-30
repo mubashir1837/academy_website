@@ -7,7 +7,7 @@ const HomeSection = () => {
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
         <div className="w-500">
 
-          <Image src="/images/logo.png" alt="Profile Image" width={100} height={100} className="rounded-full" />
+          <Image src="/images/logo.png" alt="Profile Image" width={200} height={200} className="rounded-full px-1" />
         </div>
       </div>
       <div className="container mx-auto flex flex-col items-center justify-center">

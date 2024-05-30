@@ -57,14 +57,14 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           } lg:flex flex-col lg:flex-row items-center w-full lg:w-auto`}
         >
-          <Link href="#home">
-            <h3 className="text-white text-lg font-semibold mb-4 lg:mb-0 lg:mr-4">
-              Home
-            </h3>
-          </Link>
           <Link href="#about">
             <h3 className="text-white text-lg font-semibold mb-4 lg:mb-0 lg:mr-4">
               About
+            </h3>
+          </Link>
+          <Link href="#staff">
+            <h3 className="text-white text-lg font-semibold mb-4 lg:mb-0 lg:mr-4">
+              Staff
             </h3>
           </Link>
           <Link href="#time">
