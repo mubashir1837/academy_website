@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 const images = [
-  "/images/naza2.jpg",
+  "/images/1.png",
   "/images/naza.jpg",
   "/images/ssf.png",
   "/images/tilte.jpg",
@@ -27,10 +27,10 @@ const Academies = () => {
   return (
     <>
       <Head>
-        <title>Academics - The Bronx Charter School for Children</title>
+        <title className='text-white z-10'>Academics - The Bronx Charter School for Children</title>
       </Head>
       <section className="academicsSection">
-        <div className="imageContainer">
+        <div className="imageContainer px-4">
           <Image
             src={images[currentImageIndex]} 
             alt="Children studying"
@@ -39,7 +39,7 @@ const Academies = () => {
             quality={100}
           />
           <div className="overlay">
-            <h1 className="title">Academics</h1>
+            <h1 className="title">.</h1>
           </div>
         </div>
       </section>

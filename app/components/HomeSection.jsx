@@ -11,8 +11,8 @@ const HomeSection = () => {
         </div>
       </div>
       <div className="container mx-auto flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-extrabold text-center mb-8">Allama Iqbal Science Academy </h1>
-        <p className="text-lg text-center">Join a community of scholars and thinkers at Allama Iqbal Science Academy, where every idea has the potential to change the world</p>
+        <h1 className="text-4xl font-extrabold t text-center mt-6">Allama Iqbal Science Academy </h1>
+        <p className="text-lg text-center mt-4 mx-auto max-w-lg">Join a community of scholars and thinkers at Allama Iqbal Science Academy, where every idea has the potential to change the world</p>
       </div>
     </section>
   );

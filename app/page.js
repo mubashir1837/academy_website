@@ -8,7 +8,7 @@ import Academies from "./components/Academies";
 
 const Page = () => {
   return (
-    <main className="flex min-h-screen flex-col bg-yellow-100">
+    <main className="flex min-h-screen flex-col bg-[#0a0e47] text-white">
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HomeSection />
